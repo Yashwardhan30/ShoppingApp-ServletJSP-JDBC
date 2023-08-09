@@ -1,0 +1,7 @@
+
+create table products (
+	prod_id number(6) primary key,
+	prod_name varchar2(20) not null,
+	prod_price number(10),
+	prod_qty number(6)
+);
